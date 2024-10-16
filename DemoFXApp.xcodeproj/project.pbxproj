@@ -8,24 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		46AED52E2CB6BD36002F7EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED52D2CB6BD36002F7EE5 /* AppDelegate.swift */; };
-		46AED5302CB6BD36002F7EE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED52F2CB6BD36002F7EE5 /* SceneDelegate.swift */; };
-		46AED5322CB6BD36002F7EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED5312CB6BD36002F7EE5 /* ViewController.swift */; };
-		46AED5352CB6BD36002F7EE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 46AED5342CB6BD36002F7EE5 /* Base */; };
+		46AED5322CB6BD36002F7EE5 /* ForeignCurrencyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED5312CB6BD36002F7EE5 /* ForeignCurrencyViewController.swift */; };
 		46AED5382CB6BD36002F7EE5 /* DemoFXApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46AED5362CB6BD36002F7EE5 /* DemoFXApp.xcdatamodeld */; };
 		46AED53A2CB6BD3B002F7EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46AED5392CB6BD3B002F7EE5 /* Assets.xcassets */; };
 		46AED53D2CB6BD3B002F7EE5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 46AED53C2CB6BD3B002F7EE5 /* Base */; };
+		46AED5452CB6BE6C002F7EE5 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED5442CB6BE6B002F7EE5 /* BaseNavigationController.swift */; };
+		46AED54B2CB70C55002F7EE5 /* ForeignCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED54A2CB70C55002F7EE5 /* ForeignCurrency.swift */; };
+		46AED54D2CB70E36002F7EE5 /* FXService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED54C2CB70E36002F7EE5 /* FXService.swift */; };
+		46AED54F2CB70EC7002F7EE5 /* ForeignCurrencyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED54E2CB70EC7002F7EE5 /* ForeignCurrencyViewModel.swift */; };
+		46AED5742CB7AB97002F7EE5 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED5732CB7AB97002F7EE5 /* CurrencyTableViewCell.swift */; };
+		46AED5762CB7AC67002F7EE5 /* FXBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED5752CB7AC67002F7EE5 /* FXBaseViewController.swift */; };
+		46AED5792CB7AD7A002F7EE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED5782CB7AD7A002F7EE5 /* Extensions.swift */; };
+		46AED57B2CB7FB68002F7EE5 /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46AED57A2CB7FB68002F7EE5 /* NSLayoutConstraintExtension.swift */; };
+		46E0D5FB2CB90ACF00DF02F9 /* ForeignCurrencyXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D5FA2CB90ACF00DF02F9 /* ForeignCurrencyXMLParser.swift */; };
+		46E0D5FE2CB90BEA00DF02F9 /* FXSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D5FD2CB90BEA00DF02F9 /* FXSingleton.swift */; };
+		46E0D6012CB93EAF00DF02F9 /* FXItemsConvertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D6002CB93EAF00DF02F9 /* FXItemsConvertViewController.swift */; };
+		46E0D6042CB9425700DF02F9 /* FXItemConvertViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D6032CB9425700DF02F9 /* FXItemConvertViewModel.swift */; };
+		46E0D6062CB9431500DF02F9 /* FXListType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E0D6052CB9431500DF02F9 /* FXListType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		46AED52A2CB6BD36002F7EE5 /* DemoFXApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoFXApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46AED52D2CB6BD36002F7EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46AED52F2CB6BD36002F7EE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		46AED5312CB6BD36002F7EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		46AED5342CB6BD36002F7EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46AED5312CB6BD36002F7EE5 /* ForeignCurrencyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignCurrencyViewController.swift; sourceTree = "<group>"; };
 		46AED5372CB6BD36002F7EE5 /* DemoFXApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoFXApp.xcdatamodel; sourceTree = "<group>"; };
 		46AED5392CB6BD3B002F7EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46AED53C2CB6BD3B002F7EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46AED53E2CB6BD3B002F7EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46AED5442CB6BE6B002F7EE5 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		46AED54A2CB70C55002F7EE5 /* ForeignCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignCurrency.swift; sourceTree = "<group>"; };
+		46AED54C2CB70E36002F7EE5 /* FXService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXService.swift; sourceTree = "<group>"; };
+		46AED54E2CB70EC7002F7EE5 /* ForeignCurrencyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignCurrencyViewModel.swift; sourceTree = "<group>"; };
+		46AED5732CB7AB97002F7EE5 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		46AED5752CB7AC67002F7EE5 /* FXBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXBaseViewController.swift; sourceTree = "<group>"; };
+		46AED5782CB7AD7A002F7EE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		46AED57A2CB7FB68002F7EE5 /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
+		46E0D5FA2CB90ACF00DF02F9 /* ForeignCurrencyXMLParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForeignCurrencyXMLParser.swift; sourceTree = "<group>"; };
+		46E0D5FD2CB90BEA00DF02F9 /* FXSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXSingleton.swift; sourceTree = "<group>"; };
+		46E0D6002CB93EAF00DF02F9 /* FXItemsConvertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXItemsConvertViewController.swift; sourceTree = "<group>"; };
+		46E0D6032CB9425700DF02F9 /* FXItemConvertViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXItemConvertViewModel.swift; sourceTree = "<group>"; };
+		46E0D6052CB9431500DF02F9 /* FXListType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FXListType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +80,147 @@
 		46AED52C2CB6BD36002F7EE5 /* DemoFXApp */ = {
 			isa = PBXGroup;
 			children = (
+				46E0D6072CBAA2D400DF02F9 /* Screens */,
+				46E0D5FC2CB90B2300DF02F9 /* Bases */,
+				46E0D5F92CB90AB200DF02F9 /* Classes */,
+				46AED5772CB7AD5F002F7EE5 /* Extensions */,
 				46AED52D2CB6BD36002F7EE5 /* AppDelegate.swift */,
-				46AED52F2CB6BD36002F7EE5 /* SceneDelegate.swift */,
-				46AED5312CB6BD36002F7EE5 /* ViewController.swift */,
-				46AED5332CB6BD36002F7EE5 /* Main.storyboard */,
 				46AED5392CB6BD3B002F7EE5 /* Assets.xcassets */,
 				46AED53B2CB6BD3B002F7EE5 /* LaunchScreen.storyboard */,
 				46AED53E2CB6BD3B002F7EE5 /* Info.plist */,
 				46AED5362CB6BD36002F7EE5 /* DemoFXApp.xcdatamodeld */,
 			);
 			path = DemoFXApp;
+			sourceTree = "<group>";
+		};
+		46AED5462CB6BE74002F7EE5 /* FXItemList */ = {
+			isa = PBXGroup;
+			children = (
+				46AED5492CB6C034002F7EE5 /* Model */,
+				46AED5482CB6C027002F7EE5 /* ViewModel */,
+				46AED5472CB6C01C002F7EE5 /* Views */,
+			);
+			path = FXItemList;
+			sourceTree = "<group>";
+		};
+		46AED5472CB6C01C002F7EE5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46AED5312CB6BD36002F7EE5 /* ForeignCurrencyViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46AED5482CB6C027002F7EE5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46AED54E2CB70EC7002F7EE5 /* ForeignCurrencyViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		46AED5492CB6C034002F7EE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46AED5772CB7AD5F002F7EE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46AED5782CB7AD7A002F7EE5 /* Extensions.swift */,
+				46AED57A2CB7FB68002F7EE5 /* NSLayoutConstraintExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46E0D5F92CB90AB200DF02F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				46AED54C2CB70E36002F7EE5 /* FXService.swift */,
+				46E0D5FA2CB90ACF00DF02F9 /* ForeignCurrencyXMLParser.swift */,
+				46E0D5FD2CB90BEA00DF02F9 /* FXSingleton.swift */,
+				46E0D6052CB9431500DF02F9 /* FXListType.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		46E0D5FC2CB90B2300DF02F9 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				46AED5442CB6BE6B002F7EE5 /* BaseNavigationController.swift */,
+				46AED5752CB7AC67002F7EE5 /* FXBaseViewController.swift */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		46E0D5FF2CB93E6B00DF02F9 /* FXItemsConvert */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D60C2CBC4AFE00DF02F9 /* Model */,
+				46E0D6082CBAA2E300DF02F9 /* View */,
+				46E0D6022CB9424100DF02F9 /* ViewModel */,
+			);
+			path = FXItemsConvert;
+			sourceTree = "<group>";
+		};
+		46E0D6022CB9424100DF02F9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D6032CB9425700DF02F9 /* FXItemConvertViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		46E0D6072CBAA2D400DF02F9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D6092CBAA2F100DF02F9 /* Common */,
+				46E0D5FF2CB93E6B00DF02F9 /* FXItemsConvert */,
+				46AED5462CB6BE74002F7EE5 /* FXItemList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		46E0D6082CBAA2E300DF02F9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D6002CB93EAF00DF02F9 /* FXItemsConvertViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46E0D6092CBAA2F100DF02F9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				46E0D60B2CBC4AEE00DF02F9 /* Models */,
+				46E0D60A2CBC4AE700DF02F9 /* Views */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		46E0D60A2CBC4AE700DF02F9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46AED5732CB7AB97002F7EE5 /* CurrencyTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		46E0D60B2CBC4AEE00DF02F9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46AED54A2CB70C55002F7EE5 /* ForeignCurrency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		46E0D60C2CBC4AFE00DF02F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +283,6 @@
 			files = (
 				46AED53A2CB6BD3B002F7EE5 /* Assets.xcassets in Resources */,
 				46AED53D2CB6BD3B002F7EE5 /* Base in Resources */,
-				46AED5352CB6BD36002F7EE5 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +293,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46AED5322CB6BD36002F7EE5 /* ViewController.swift in Sources */,
+				46AED5322CB6BD36002F7EE5 /* ForeignCurrencyViewController.swift in Sources */,
+				46E0D6042CB9425700DF02F9 /* FXItemConvertViewModel.swift in Sources */,
+				46AED54B2CB70C55002F7EE5 /* ForeignCurrency.swift in Sources */,
+				46AED54F2CB70EC7002F7EE5 /* ForeignCurrencyViewModel.swift in Sources */,
+				46E0D6062CB9431500DF02F9 /* FXListType.swift in Sources */,
 				46AED52E2CB6BD36002F7EE5 /* AppDelegate.swift in Sources */,
 				46AED5382CB6BD36002F7EE5 /* DemoFXApp.xcdatamodeld in Sources */,
-				46AED5302CB6BD36002F7EE5 /* SceneDelegate.swift in Sources */,
+				46AED54D2CB70E36002F7EE5 /* FXService.swift in Sources */,
+				46AED5452CB6BE6C002F7EE5 /* BaseNavigationController.swift in Sources */,
+				46E0D5FE2CB90BEA00DF02F9 /* FXSingleton.swift in Sources */,
+				46AED57B2CB7FB68002F7EE5 /* NSLayoutConstraintExtension.swift in Sources */,
+				46AED5762CB7AC67002F7EE5 /* FXBaseViewController.swift in Sources */,
+				46AED5792CB7AD7A002F7EE5 /* Extensions.swift in Sources */,
+				46AED5742CB7AB97002F7EE5 /* CurrencyTableViewCell.swift in Sources */,
+				46E0D6012CB93EAF00DF02F9 /* FXItemsConvertViewController.swift in Sources */,
+				46E0D5FB2CB90ACF00DF02F9 /* ForeignCurrencyXMLParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		46AED5332CB6BD36002F7EE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				46AED5342CB6BD36002F7EE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		46AED53B2CB6BD3B002F7EE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -301,9 +457,7 @@
 				INFOPLIST_FILE = DemoFXApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -329,9 +483,7 @@
 				INFOPLIST_FILE = DemoFXApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
